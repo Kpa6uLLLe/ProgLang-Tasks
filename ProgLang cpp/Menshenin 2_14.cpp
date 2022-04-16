@@ -6,17 +6,17 @@ int main()
 {
 	double a,b,c,x,al;
 	setlocale( LC_ALL,"Russian" );
-	cout<<"Ââåäèòå a: ";
+	cout<<"Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ a: ";
 	cin>>a;
-	cout<<"Ââåäèòå b: ";
+	cout<<"Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ b: ";
 	cin>>b;
-	cout<<"Ââåäèòå c: ";
+	cout<<"Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ c: ";
 	cin>>c;
 	if (abs(c)<=sqrt(a*a+b*b)){
 	al=atan(b/a);
 	x=asin(c/sqrt(a*a+b*b))-al;
-	cout<<"Êîðåíü óðàâíåíèÿ: "<<x*180/PI;
+	cout<<"ÃŠÃ®Ã°Ã¥Ã­Ã¼ Ã³Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿: "<<x*180/PI;
 }
 else
-cout<<"Íåò ðåøåíèÿ.";
+cout<<"ÃÃ¥Ã² Ã°Ã¥Ã¸Ã¥Ã­Ã¨Ã¿.";
 }
