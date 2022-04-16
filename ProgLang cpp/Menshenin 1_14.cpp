@@ -20,7 +20,7 @@ int main()
 	cin>>mu;
 	cout<<"Input alpha(0-90) ";
 	cin>>al;
-	cout<<"Is body moves?(0/1) ";
+	cout<<"Is body moving?(0/1) ";
 	cin>>pk;
 	al=al/180*PI;
 	pk==1? function1(m,mu,al) : function2(m,al);
