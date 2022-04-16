@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WinConsoleArgs/1.0.0": {
+        "dependencies": {
+          "ConsoleApplication1": "1.0.0"
+        },
+        "runtime": {
+          "WinConsoleArgs.dll": {}
+        }
+      },
+      "ConsoleApplication1/1.0.0": {
+        "runtime": {
+          "ConsoleApplication1.exe": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinConsoleArgs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConsoleApplication1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
